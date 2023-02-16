@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-char NUMx;
+int NUMx;
 for (NUMx = '0'; NUMx <= 'f'; NUMx++)
 {
 putchar(NUMx);
