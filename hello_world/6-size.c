@@ -19,4 +19,3 @@ printf("Size of a long long int: %zu bytes(s)\n", sizeof(longlongintType));
 printf("Size of a float: %zu bytes(s)\n", sizeof(floatType));
 return (0);
 }
-
