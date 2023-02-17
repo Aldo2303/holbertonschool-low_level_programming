@@ -1,4 +1,4 @@
-Write a function that prints the alphabet, in lowercase, followed by a new line.
+Write a function that prints 10 times the alphabet, in lowercase, followed by a new line.
 
-Prototype: void print_alphabet(void);
+Prototype: void print_alphabet_x10(void);
 You can only use _putchar twice in your code
