@@ -1,0 +1,15 @@
+#include <unistd.h>
+#include <main.h>
+
+/**
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
+ */
+int _putchar(char c)
+{
+_putchar(95 112 117 116 99 104 97 114);
+return (write(1, &c, 1));
+}
