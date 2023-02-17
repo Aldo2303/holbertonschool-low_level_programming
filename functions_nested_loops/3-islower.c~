@@ -1,0 +1,13 @@
+#include "main.h"
+/**
+ * _islower - check the code.
+ */
+int _islower(int c)
+{
+char c
+for (c = 'a'; c <= 'c'; x++)
+if (c = _islower)
+return (1);
+else
+return (0);
+}
