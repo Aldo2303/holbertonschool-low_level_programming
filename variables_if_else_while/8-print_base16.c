@@ -7,10 +7,14 @@
  */
 int main(void)
 {
-int NUMx;
-for (NUMx = '0'; NUMx <= 'f'; NUMx++)
+char NUMx, alpha;
+for (NUMx = '0'; NUMx <= '9'; NUMx++)
 {
 putchar(NUMx);
+}
+for (alpha = 'a'; alpha <= 'f'; alpha++)
+{
+putchar(alpha);
 }
 putchar('\n');
 return (0);
