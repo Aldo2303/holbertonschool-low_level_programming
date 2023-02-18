@@ -14,7 +14,12 @@ ld = (num % 10);
 if (num < 0)
 {
 ld = (-num % 10);
-}
 _putchar('0' + ld);
 return (ld);
+}
+else
+{
+_putchar('0' + ld);
+return (ld);
+}
 }
