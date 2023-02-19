@@ -1,4 +1,4 @@
-Write a function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.
+Write a function that prints the 9 times table, starting with 0.
 
-Prototype: void jack_bauer(void);
-You can listen to this soundtrack while coding :)
+Prototype: void times_table(void);
+Format: see example
