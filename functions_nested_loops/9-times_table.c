@@ -1,38 +1,24 @@
 #include "main.h"
-
 /**
  * times_table - check the code
  */
 void times_table(void)
 {
-int x;
-x = 0;
-while (x <= 9)
+int a, b, c;
+for (a = 0; a <= 9; a++)
 {
-int y;
-y = 0;
-while (y <= 9)
+_putchar('0');
+for (b = 1; b <= 9; b++)
 {
-int z;
-z = x *y;
-if (z > 9)
-{
-_putchar((z / 10) + '0');
-_putchar((z % 10) + '0');
 _putchar(',');
 _putchar(' ');
-y++;
-}
+c = a * b;
+if (c <= 9)
+_putchar(' ');
 else
-{
-_putchar(z + '0');
-_putchar(',');
-_putchar(' ');
-_putchar(' ');
-y++;
+_putchar((c / 10) + '0');
+_putchar((c % 10) + '0');
 }
-}
-putchar('\n');
-x++;
+_putchar('\n');
 }
 }
