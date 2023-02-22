@@ -17,7 +17,7 @@ oclean:
 
 .PHONY: fclean
 fclean:
-	$(RM) *~ $(NAME) $(OBJ)
+	clean oclean
 
 .PHONY: re
 re:
