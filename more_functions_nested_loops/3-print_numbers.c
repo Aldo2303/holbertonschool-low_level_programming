@@ -1,8 +1,6 @@
 #include "main.h"
 /**
  * print_numbers - prints the numbers
- *
- * @num: variable
  */
 void print_numbers(void)
 {
