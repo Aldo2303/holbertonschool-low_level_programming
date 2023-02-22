@@ -3,12 +3,12 @@ SRC = main.c school.c
 OBJ = main.o school.o
 NAME = school
 
-all: $(OBJ)
-	$(CC) $(OBJ) -o $(NAME)
+all: $(SRC)
+	$(CC) $(SRC) -o $(NAME)
 
-main.o: $(SRC)
+main.o: main.c m.h
 	$(CC) -c main.c
 
-school.o: $(SRC)
+school.o: scholl.c m.h
 	$(CC) -c school.c
 
