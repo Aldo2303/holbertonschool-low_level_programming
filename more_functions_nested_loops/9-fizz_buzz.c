@@ -24,6 +24,7 @@ int main(void)
 	else if (b == 100)
 	{
 		printf("Buzz");
+		printf("\n");
 	}
 	else if (mul3 == 0)
 	{
