@@ -14,14 +14,12 @@ _putchar('\n');
 else
 {
 for (a = 1; a <= size; a++)
-_putchar(' ');
 {
 if (a > 0)
 {
-for (b = 1; b <= a - 1; b++)
 _putchar('#');
 }
-_putchar('\n');
 }
+_putchar('\n');
 }
 }
