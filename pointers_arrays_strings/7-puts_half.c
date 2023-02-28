@@ -15,6 +15,11 @@ void puts_half(char *str)
 	y = x / 2;
 	for (a = y; a <= x; a++)
 	{
+	if (x % 2 == 1)
+	{
+	a = x - 1 / 2;
+	a += 1;
+	}
 	_putchar(str[a]);
 	}
 	_putchar ('\n');
