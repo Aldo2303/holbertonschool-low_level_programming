@@ -12,19 +12,21 @@
  */
 char *_strncpy(char *dest, char *src, int n)
 {
-	int x = 0, y;
+	int x = 0, y = 0;
 
-	while (src[x] != '\0')
+	while (src[x])
 	{
 		x++;
 	}
-	for (y = 0; y <= n; y++)
+	while (y < n && src[y])
 	{
 		dest[y] = src[y];
+		y++;
 	}
-	if (y == x + 1)
+	while (y < n)
 	{
 		dest[y] = '\0';
+		y++;
 	}
 	return (dest);
 }
