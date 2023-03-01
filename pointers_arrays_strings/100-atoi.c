@@ -4,7 +4,7 @@
  *
  * @s: variable
  *
- * return: int
+ * Return: x
  */
 int _atoi(char *s)
 {
