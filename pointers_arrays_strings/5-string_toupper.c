@@ -12,11 +12,11 @@ char *string_toupper(char *s)
 
 	while (s[x] != '\0')
 	{
-		if (s[x] >= 97 && s[x] <= 122)
+		if (s[x] >= 'a' && s[x] <= 'z')
 		{
-			s[x] = (int)s[x] - 32;
+			s[x] = s[x] - 32;
 		}
 		x++;
 	}
-	return (0);
+	return (s);
 }
