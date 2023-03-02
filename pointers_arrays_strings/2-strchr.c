@@ -17,9 +17,9 @@ char *_strchr(char *s, char c)
 	{
 		x++;
 	}
-	for (y = 0; y <= x; y++)
+	for (y = 0; y < x; y++)
 	{
-		if (s[y] == c)
+		if (c == s[y])
 		{
 			p = &s[y];
 		}
