@@ -14,29 +14,19 @@ char *str_concat(char *s1, char *s2)
 	char *ptr;
 
 	if (s1 == NULL)
-	{
 		s1 = "";
-	}
 	if (s2 == NULL)
-	{
 		s2 = "";
-	}
 	x = 0;
 	while (s1[x] != '\0')
-	{
 		x++;
-	}
 	y = 0;
 	while (s2[y] != '\0')
-	{
 		y++;
-	}
 	suma = x + y;
 	ptr = malloc((sizeof(char) * suma) + 1);
 	if (!ptr)
-	{
 		return (NULL);
-	}
 	y = 0;
 	while (z < suma)
 	{
