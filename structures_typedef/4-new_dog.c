@@ -51,7 +51,8 @@ char *_strdup(char *str)
 	ptr = malloc((sizeof(char) * i) + 1);
 	if (!ptr)
 	{
-	return (NULL);
+		free(ptr);
+		return (NULL);
 	}
 	for (x = 0; x < i; x++)
 	{
