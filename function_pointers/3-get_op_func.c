@@ -1,7 +1,7 @@
 #include "3-calc.h"
 
 /**
- * get_op_func - select the function 
+ * get_op_func - select the function
  * @s: variable - operator passed as argument to the program
  * Return: int
  */
@@ -17,6 +17,7 @@ int (*get_op_func(char *s))(int, int)
 	};
 
 	int i = 0;
+
 	while (ops[i].op != NULL)
 	{
 		if (*s == *ops[i].op)
