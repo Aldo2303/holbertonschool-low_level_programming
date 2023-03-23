@@ -1,6 +1,6 @@
 #include "variadic_functions.h"
 /**
- * sum_them_all- function that returns the sum
+ * print_numbers - function that returns the sum
  * @n: variable
  * @separator: variable
  */
