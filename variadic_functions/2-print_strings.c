@@ -12,15 +12,17 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	char *ptr;
 
 	va_start(liststring, n);
-	for (i = 1; i <= n; i++)
+	/*at each iteration, it is stored in a variable of type char* */
+	for (i = 0; i < n; i++)
 	{
+		/*va_arg returns the next argument in the list of the specified data type*/
 		ptr = va_arg(liststring, char *);
 		if (ptr == NULL)
 			printf("(nil)");
 		else
 		printf("%s", ptr);
-
-		if (separator != NULL && i != n)
+		/*n-1 because the for is < n, as the va_arg looks forward*/
+		if (separator != NULL && i != n - 1)
 			printf("%s", separator);
 	}
 	printf("\n");
