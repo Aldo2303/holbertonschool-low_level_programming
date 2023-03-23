@@ -2,8 +2,8 @@
 
 /**
  * print_strings - function that print strings
- * @n: variable
- * @separator: variable
+ * @n: variables
+ * @separator: variables
  */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
