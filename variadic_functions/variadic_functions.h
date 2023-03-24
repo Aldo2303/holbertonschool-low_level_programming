@@ -21,7 +21,7 @@ void print_string(va_list list_idk);
  */
 typedef struct type
 {
-	char type;
+	char ctype;
 	void (*f)(va_list);
 } tipo_dt;
 

@@ -23,9 +23,9 @@ void print_all(const char * const format, ...)
 	while (format != NULL && format[x] != '\0')
 	{
 		y = 0;
-		while (tipos[y].type != '\0')
+		while (tipos[y].ctype != '\0')
 		{
-			if (tipos[y].type == format[x])
+			if (tipos[y].ctype == format[x])
 			{
 				printf("%s", separador);
 				tipos[y].f(list_idk);
@@ -78,6 +78,7 @@ void print_string(va_list list_idk)
 	if (str == NULL)
 	{
 		printf("(nil)");
+		return;
 	}
 	printf("%s", str);
 }
