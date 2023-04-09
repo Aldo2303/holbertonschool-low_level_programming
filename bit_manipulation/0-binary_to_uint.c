@@ -13,8 +13,8 @@ unsigned int binary_to_uint(const char *b)
 	if (b == NULL)
 		return (0);
 
-	/*calculo el largo de b, que le hare el left shift, para obtener...
-	 * ...la cantidad de ceros para tener la potencia de 2 que corresponde*/
+	/*calculo el largo de b, que le hare el left shift, para obtener...*/
+	 /*...la cantidad de ceros que den la potencia de 2 que corresponde*/
 	len = 0;
 	while (b[len] != '\0')
 		len++;
